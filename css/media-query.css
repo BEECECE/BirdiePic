@@ -1,0 +1,106 @@
+
+/* --------  media query  -------- */
+
+@media all and (max-width: 1420px) {
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+
+@media all and (max-width: 1200px) {
+    
+}
+
+@media all and (max-width: 991px) {
+    
+    
+    
+}
+
+@media all and (max-width: 768px) {
+    
+    
+}
+
+
+@media all and (max-width: 480px) {
+    .heading-div{
+        flex-direction: column;
+    }
+    
+    .nav-menu{
+        margin-bottom: 30px;
+    }
+
+    .nav-menu a{
+        font-size: 18px;
+        padding: 5px;
+        margin: 0 10px;
+    }
+
+    .my-images{
+        flex-direction: column;
+    }
+
+    .image{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .portfolio-items img{
+        width: 47%;
+    }
+
+    .blog-text img{
+        float: none;
+        padding-right: 0;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    form input, form textarea{
+        width: 95%;
+    }
+
+
+    .hamburger-menu{
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        display: inline;
+    }
+
+    .hamburger{
+        width: 30px;
+        height: 3px;
+        background-color: #111;
+        border-radius: 10px;
+        margin: 5px;
+    }
+}
+
+@media all and (max-width: 320px) {     /*   for iphone5 device  */
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }    
+    
+    .nav-menu{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -120px;
+    }
+
+    .nav-menu a{
+        font-size: 24px;
+        margin: 20px;
+    }
+}
